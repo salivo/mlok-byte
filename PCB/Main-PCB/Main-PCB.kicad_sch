@@ -1,5 +1,98 @@
-(kicad_sch (version 20250114) (generator "eeschema") (generator_version "9.0")
-  (paper "A4")
-  (lib_symbols)
-  (symbol_instances)
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "c7746b69-5ef2-4ca8-9a58-52c790d00466")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 133.35 52.07)
+		(size 44.45 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "161212a4-6ae2-4085-bd88-106b0438160b")
+		(property "Sheetname" "BatteryICs"
+			(at 133.35 51.3584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "batteryics.kicad_sch"
+			(at 133.35 71.7046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Main-PCB"
+				(path "/c7746b69-5ef2-4ca8-9a58-52c790d00466"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 64.77 52.07)
+		(size 43.18 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "70472cc2-11cf-4caa-ba78-01d20519db41")
+		(property "Sheetname" "GSM_module"
+			(at 64.77 51.3584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "gsm_module.kicad_sch"
+			(at 64.77 75.5146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Main-PCB"
+				(path "/c7746b69-5ef2-4ca8-9a58-52c790d00466"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )

@@ -1727,6 +1727,12 @@
 		)
 		(instances
 			(project ""
+				(path "/c7746b69-5ef2-4ca8-9a58-52c790d00466/70472cc2-11cf-4caa-ba78-01d20519db41"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+			(project ""
 				(path "/e65beebd-feb5-469b-ac4f-eb4cc3018a39/4c7d0dab-fba4-41cd-8456-441e3e1a77ab"
 					(reference "C3")
 					(unit 1)
@@ -1796,6 +1802,12 @@
 		)
 		(instances
 			(project ""
+				(path "/c7746b69-5ef2-4ca8-9a58-52c790d00466/70472cc2-11cf-4caa-ba78-01d20519db41"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+			(project ""
 				(path "/e65beebd-feb5-469b-ac4f-eb4cc3018a39/4c7d0dab-fba4-41cd-8456-441e3e1a77ab"
 					(reference "C1")
 					(unit 1)
@@ -1860,6 +1872,12 @@
 			(uuid "048038c8-3041-4142-83e7-0a453c7368e1")
 		)
 		(instances
+			(project ""
+				(path "/c7746b69-5ef2-4ca8-9a58-52c790d00466/70472cc2-11cf-4caa-ba78-01d20519db41"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/e65beebd-feb5-469b-ac4f-eb4cc3018a39/4c7d0dab-fba4-41cd-8456-441e3e1a77ab"
 					(reference "#PWR01")
@@ -2051,6 +2069,12 @@
 		)
 		(instances
 			(project "SmartNecklace"
+				(path "/c7746b69-5ef2-4ca8-9a58-52c790d00466/70472cc2-11cf-4caa-ba78-01d20519db41"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+			(project "SmartNecklace"
 				(path "/e65beebd-feb5-469b-ac4f-eb4cc3018a39/4c7d0dab-fba4-41cd-8456-441e3e1a77ab"
 					(reference "U1")
 					(unit 1)
@@ -2120,6 +2144,12 @@
 			(uuid "c07a8735-ea2b-4ebd-91dd-d4c84733fbf0")
 		)
 		(instances
+			(project ""
+				(path "/c7746b69-5ef2-4ca8-9a58-52c790d00466/70472cc2-11cf-4caa-ba78-01d20519db41"
+					(reference "C2")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/e65beebd-feb5-469b-ac4f-eb4cc3018a39/4c7d0dab-fba4-41cd-8456-441e3e1a77ab"
 					(reference "C2")
@@ -2203,6 +2233,12 @@
 		)
 		(instances
 			(project ""
+				(path "/c7746b69-5ef2-4ca8-9a58-52c790d00466/70472cc2-11cf-4caa-ba78-01d20519db41"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+			(project ""
 				(path "/e65beebd-feb5-469b-ac4f-eb4cc3018a39/4c7d0dab-fba4-41cd-8456-441e3e1a77ab"
 					(reference "J1")
 					(unit 1)
@@ -2272,6 +2308,12 @@
 			(uuid "34fd0ff8-cf1d-445c-ada9-946172327a2f")
 		)
 		(instances
+			(project "SmartNecklace"
+				(path "/c7746b69-5ef2-4ca8-9a58-52c790d00466/70472cc2-11cf-4caa-ba78-01d20519db41"
+					(reference "C4")
+					(unit 1)
+				)
+			)
 			(project "SmartNecklace"
 				(path "/e65beebd-feb5-469b-ac4f-eb4cc3018a39/4c7d0dab-fba4-41cd-8456-441e3e1a77ab"
 					(reference "C4")
