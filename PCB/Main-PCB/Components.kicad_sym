@@ -224,7 +224,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -10.922 -17.018 0)
+			(at -10.922 -30.734 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -232,7 +232,7 @@
 			)
 		)
 		(property "Value" "BQ27Z758"
-			(at 7.112 -17.018 0)
+			(at 7.112 -30.734 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -240,7 +240,7 @@
 			)
 		)
 		(property "Footprint" "Library:DSBGA-15_3x5_1.7x2.6mm"
-			(at 0 0 0)
+			(at 0 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -249,7 +249,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/bq27z758.pdf"
-			(at 0 0 0)
+			(at 0 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -277,8 +277,8 @@
 		)
 		(symbol "BQ27Z758_0_1"
 			(rectangle
-				(start -12.7 15.24)
-				(end 12.7 -15.24)
+				(start -12.7 25.4)
+				(end 12.7 -29.21)
 				(stroke
 					(width 0)
 					(type default)
@@ -290,7 +290,7 @@
 		)
 		(symbol "BQ27Z758_1_1"
 			(pin power_in line
-				(at -15.24 11.43 0)
+				(at -15.24 21.59 0)
 				(length 2.54)
 				(name "VDD"
 					(effects
@@ -308,7 +308,7 @@
 				)
 			)
 			(pin input line
-				(at -15.24 7.62 0)
+				(at -15.24 5.08 0)
 				(length 2.54)
 				(name "BAT"
 					(effects
@@ -326,7 +326,7 @@
 				)
 			)
 			(pin input line
-				(at -15.24 1.27 0)
+				(at -15.24 0 0)
 				(length 2.54)
 				(name "TS"
 					(effects
@@ -344,7 +344,7 @@
 				)
 			)
 			(pin power_out line
-				(at -15.24 -2.54 0)
+				(at -15.24 -10.16 0)
 				(length 2.54)
 				(name "VSS"
 					(effects
@@ -362,7 +362,7 @@
 				)
 			)
 			(pin input line
-				(at -15.24 -7.62 0)
+				(at -15.24 -19.05 0)
 				(length 2.54)
 				(name "SRP"
 					(effects
@@ -380,7 +380,7 @@
 				)
 			)
 			(pin input line
-				(at -15.24 -11.43 0)
+				(at -15.24 -26.67 0)
 				(length 2.54)
 				(name "SRN"
 					(effects
@@ -398,7 +398,7 @@
 				)
 			)
 			(pin output line
-				(at -2.54 17.78 270)
+				(at -5.08 27.94 270)
 				(length 2.54)
 				(name "CHG"
 					(effects
@@ -416,7 +416,7 @@
 				)
 			)
 			(pin output line
-				(at 2.54 17.78 270)
+				(at 5.08 27.94 270)
 				(length 2.54)
 				(name "DSG"
 					(effects
@@ -434,7 +434,7 @@
 				)
 			)
 			(pin input line
-				(at 15.24 11.43 180)
+				(at 15.24 21.59 180)
 				(length 2.54)
 				(name "PACK"
 					(effects
@@ -452,7 +452,7 @@
 				)
 			)
 			(pin output line
-				(at 15.24 7.62 180)
+				(at 15.24 15.24 180)
 				(length 2.54)
 				(name "BAT_SP"
 					(effects
@@ -470,7 +470,7 @@
 				)
 			)
 			(pin output line
-				(at 15.24 3.81 180)
+				(at 15.24 11.43 180)
 				(length 2.54)
 				(name "BAT_SN"
 					(effects
@@ -488,7 +488,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.24 0 180)
+				(at 15.24 2.54 180)
 				(length 2.54)
 				(name "GPO/TS1"
 					(effects
@@ -506,7 +506,7 @@
 				)
 			)
 			(pin input line
-				(at 15.24 -3.81 180)
+				(at 15.24 -7.62 180)
 				(length 2.54)
 				(name "ENAB"
 					(effects
@@ -524,7 +524,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.24 -7.62 180)
+				(at 15.24 -17.78 180)
 				(length 2.54)
 				(name "SCL"
 					(effects
@@ -542,7 +542,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.24 -11.43 180)
+				(at 15.24 -21.59 180)
 				(length 2.54)
 				(name "SDA"
 					(effects
@@ -552,6 +552,523 @@
 					)
 				)
 				(number "D3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "SIM"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 36.576 8.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "SIM_0_1"
+			(polyline
+				(pts
+					(xy -12.7 7.62) (xy -12.7 -12.7) (xy 10.16 -12.7) (xy 12.7 -10.16) (xy 12.7 7.62) (xy -12.7 7.62)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(rectangle
+				(start -3.81 1.27)
+				(end 0 2.54)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start -3.81 -1.27)
+				(end 0 0)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start -3.81 -3.81)
+				(end 0 -2.54)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 1.27 1.27)
+				(end 5.08 2.54)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 1.27 -1.27)
+				(end 5.08 0)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 1.27 -2.54)
+				(end 5.08 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+		)
+		(symbol "SIM_1_1"
+			(pin power_in line
+				(at -15.24 6.35 0)
+				(length 2.54)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -15.24 3.81 0)
+				(length 2.54)
+				(name "RST"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -15.24 1.27 0)
+				(length 2.54)
+				(name "CLK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -15.24 -1.27 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -15.24 -3.81 0)
+				(length 2.54)
+				(name "VPP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -15.24 -6.35 0)
+				(length 2.54)
+				(name "I/O"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -15.24 -8.89 0)
+				(length 2.54)
+				(name "SW"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "SW"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -15.24 -11.43 0)
+				(length 2.54)
+				(name "SH"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "SH"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "TPS62291DRVR"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "IC"
+			(at -5.842 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "TPS62291DRVR"
+			(at -5.842 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "SON65P200X200X80-7N"
+			(at 26.67 -94.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-6/sf-000132852.pdf"
+			(at 26.67 -194.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Voltage Regulators - Switching Regulators 2.25MHz 1A Step-Down Converter"
+			(at -4.826 -30.226 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.8"
+			(at 26.67 -394.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-TPS62291DRVR"
+			(at 26.67 -494.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS62291DRVR?qs=WxL8HmPi5r5oemxPY8jLwQ%3D%3D"
+			(at 26.67 -594.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 26.67 -694.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TPS62291DRVR"
+			(at 26.67 -794.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(symbol "TPS62291DRVR_1_1"
+			(rectangle
+				(start -10.16 6.35)
+				(end 10.16 -10.16)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin power_in line
+				(at -15.24 3.81 0)
+				(length 5.08)
+				(name "VIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -15.24 0 0)
+				(length 5.08)
+				(name "EN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -15.24 -3.81 0)
+				(length 5.08)
+				(name "MODE"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -15.24 -7.62 0)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -15.24 90)
+				(length 5.08)
+				(name "EP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 15.24 3.81 180)
+				(length 5.08)
+				(name "SW"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 15.24 -7.62 180)
+				(length 5.08)
+				(name "FB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)

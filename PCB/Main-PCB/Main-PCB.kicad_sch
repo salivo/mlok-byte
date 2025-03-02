@@ -6,7 +6,7 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 133.35 52.07)
+		(at 22.86 53.34)
 		(size 44.45 19.05)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21,8 +21,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "161212a4-6ae2-4085-bd88-106b0438160b")
-		(property "Sheetname" "BatteryICs"
-			(at 133.35 51.3584 0)
+		(property "Sheetname" "Power"
+			(at 22.86 52.6284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31,12 +31,72 @@
 			)
 		)
 		(property "Sheetfile" "batteryics.kicad_sch"
-			(at 133.35 71.7046 0)
+			(at 22.86 72.9746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "INT_1" input
+			(at 30.48 72.39 270)
+			(uuid "10333a9e-9c57-41f2-881b-53986053d67e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INT_2" input
+			(at 34.29 72.39 270)
+			(uuid "ae5f873c-dd4f-4e00-9108-552c6a2a42a5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCL" input
+			(at 40.64 72.39 270)
+			(uuid "012154f5-28ed-43ae-9a96-c32d93047f06")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA" input
+			(at 44.45 72.39 270)
+			(uuid "30b21f81-c44e-4fbf-8ed9-eeac771f28ca")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VIN" input
+			(at 22.86 59.69 180)
+			(uuid "3a2d57df-3322-4758-995d-b446c78b8477")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VSYS" input
+			(at 67.31 58.42 0)
+			(uuid "8edc86b4-d881-4039-83ca-f0ba20678a93")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -48,8 +108,8 @@
 		)
 	)
 	(sheet
-		(at 64.77 52.07)
-		(size 43.18 22.86)
+		(at 90.17 53.34)
+		(size 44.45 19.05)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -64,7 +124,7 @@
 		)
 		(uuid "70472cc2-11cf-4caa-ba78-01d20519db41")
 		(property "Sheetname" "GSM_module"
-			(at 64.77 51.3584 0)
+			(at 90.17 52.6284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -73,7 +133,7 @@
 			)
 		)
 		(property "Sheetfile" "gsm_module.kicad_sch"
-			(at 64.77 75.5146 0)
+			(at 90.17 72.9746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
