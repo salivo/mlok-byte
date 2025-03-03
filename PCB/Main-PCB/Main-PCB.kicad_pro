@@ -619,6 +619,10 @@
     [
       "161212a4-6ae2-4085-bd88-106b0438160b",
       "Power"
+    ],
+    [
+      "2e34eead-6be7-489d-a7de-f8dfb2de2376",
+      "MCU"
     ]
   ],
   "text_variables": {}
